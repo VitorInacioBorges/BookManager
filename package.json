@@ -1,0 +1,23 @@
+{
+  "name": "bookmanager",
+  "version": "1.0.0",
+  "description": "a book manager made with node.js, javascript and express,js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorInacioBorges/BookManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorInacioBorges/BookManager/issues"
+  },
+  "homepage": "https://github.com/VitorInacioBorges/BookManager#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

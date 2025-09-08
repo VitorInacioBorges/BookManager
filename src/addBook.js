@@ -1,15 +1,13 @@
 const { bookList } = require("../data/book");
 
 function addBook(req, res) {
-  let i = 0;
   const newBook = {
-    id: i,
+    id: bookList.length,
     title: req.body.title,
     year: req.body.year,
     genre: req.body.genre,
     author: req.body.author,
   };
-  i++;
   bookList.push(newBook);
   res
     .status(200)
